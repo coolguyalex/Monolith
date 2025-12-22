@@ -2,7 +2,7 @@
 All frequencies (and to a lesser extent, Domains ) could be adjusted to be proportionate to interation based on installation design.
 
 | Sensor | Frequency of Change | Domain of Variability | Likley Values | Notes |
-|--------|----------|----------|-----------------------|---------------|-------|
+|--------|---------------------|-----------------------|---------------|-------|
 | Capacitive Touch | Frequent | capacitance registers as a number and touching modifies that number | 300's | 12 contacts map to 12 notes in an octave |
 | Light | Very Low | similar to capacitive touch but with very large swing depending on proximity of strength and proximity of light sources | | Lux is a non-linear parameter |
 | Temperature | Very Low | Very Low | 24+/- 10 | Perhaps create a tube you can blow into ? |
