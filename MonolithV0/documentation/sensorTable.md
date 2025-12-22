@@ -5,7 +5,7 @@
 | Light | Very Low (possibly frequent with light source and instructions) | similar to capacitive touch but with ver large swing depending on proximity of strength and proximity of light sources | Lux is a non-linear quantity |
 | Temperature | Very Low | Very Low | Perhaps create a tube you can blow into ? |
 | Humidity | Very Low | Very Low | Perhaps create a tube you can blow into ? |
-| Magnetic Field X, Y, & Z | Very Low | 360 degrees of rotation | Signal to noise ratio for detecting nearby electronics is likley too low | unless magnets provided or mounted to a moving object |
+| Magnetic Field X, Y, & Z | Very Low | 360 degrees of rotation | Signal to noise ratio for detecting nearby electronics is likley too low - providing Magnetic objects or mounting sensor to a moving object will increase utility |
 | PIR | High | Binary Data |
 | Buttons | High | Binary Data |
 | Potentiometers | High | Full Range |
