@@ -1,8 +1,14 @@
 # Sensor Table
 |Sensor|Frequency of Change|Domain of Variability|Notes|
-|----------------|-----|-----|-----|
-| Capacitive Touch | Frequent | untested but likely 0 and a cluster of numbers when touched |
-|
+|------------------|----------|-------------------------------------------------------------|-----|
+| Capacitive Touch | Frequent | capacitance registers as a number and touching modifies that number | Linear |
+| Light | Very Low (possibly frequent with light source and instructions) | similar to capacitive touch but with ver large swing depending on proximity of strength and proximity of light sources | Lux is a non-linear quantity |
+|Temperature | Very Low |
+| Humidity | Very Low |
+| Magnetic Field X, Y, & Z | 
+| PIR | High | 
+| Buttons | High |
+| Potentiometers | High |
 
 ## Sensor Technical Data
 
