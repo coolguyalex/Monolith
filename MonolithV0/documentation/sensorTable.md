@@ -3,7 +3,7 @@
 |------------------|----------|---------------------------------------------------------------------|-------|------------------------------------------|
 | Capacitive Touch | Frequent | capacitance registers as a number and touching modifies that number | 300's | 12 contacts map to 12 notes in an octave |
 | Light | Very Low (possibly frequent with light source and instructions) | similar to capacitive touch but with very large swing depending on proximity of strength and proximity of light sources | Lux is a non-linear parameter |
-| Temperature | Very Low | Very Low | Perhaps create a tube you can blow into ? |
+| Temperature | Very Low | Very Low | 24+/- 10 | Perhaps create a tube you can blow into ? |
 | Humidity | Very Low | Very Low | Perhaps create a tube you can blow into ? |
 | Magnetic Field X, Y, & Z | Very Low | 360 degrees of rotation | Signal to noise ratio for detecting nearby electronics is likley too low - providing Magnetic objects or mounting sensor to a moving object will increase utility |
 | PIR | High | Binary Data |
