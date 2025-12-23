@@ -8,11 +8,18 @@
 - Elegoo Nano
 
 ### Libraries 
-- <Wire.h>
-- <Adafruit_BME280.h> by Adafruit
+
+| Library Names | Include call | Author | Desciption |
+|----|----|----|----|
+| Wire | <Wire.h> | Arduino ? | used for IIC work |
+| Adafruit_BME280_Library | <Adafruit_BME280.h> | Adafruit | used for the BME280 Temperature, Pressure, and Humnidity sensor |
+
+
 - <Adafruit_Sensor.h>
 - <BH1750.h> by Christopher Laws
 - <QMC5883LCompass.h> by MPorgrams
+- Adafruit SSD1306 by Adafruit : OLED driver library for small screens
+- 
 
 ## Electrosmith Daisy 
 
