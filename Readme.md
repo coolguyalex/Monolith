@@ -19,7 +19,7 @@ In other iterations puredata is compiled onto an electrosmith daisy microcontrol
 Transferring data via serial UART will likley be necessary when high volumes of data are passed in future iterations. 
 
 ### Sensor details
-All frequencies (and to a lesser extent, Domains ) could be adjusted to be proportionate to interation based on installation design.
+All chage frequencies, domain variabilities, and values are adjustable by code and installation design.
 
 | Sensor | Frequency of Change | Domain of Variability | Likley Values | Notes |
 |--------|---------------------|-----------------------|---------------|-------|
@@ -34,7 +34,7 @@ All frequencies (and to a lesser extent, Domains ) could be adjusted to be propo
 
 ### Sensor Technical Data
 
-| Sensor ID | Other names        | Sensor Name         | Voltage | I²C  |
+| Sensor ID | Other IDs          | Sensor Name         | Operational Voltage | I²C address |
 |-----------|--------------------|---------------------|---------|------|
 | BH1750    |                    | Light               | 3–5V    | 0x23 |
 | MPR121   |                    | Capacitive Touch    | 3.3V    |      |
