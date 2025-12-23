@@ -1,4 +1,4 @@
-# Monolith V0 Readme
+# Monolith Readme
 
 ## Introduction
 
