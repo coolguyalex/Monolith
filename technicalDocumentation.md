@@ -8,11 +8,11 @@
 - Elegoo Nano
 
 ### Libraries 
-<Wire.h>
-<Adafruit_BME280.h> by Adafruit
-<Adafruit_Sensor.h>
-<BH1750.h> by Christopher Laws
-<QMC5883LCompass.h> by MPorgrams
+- <Wire.h>
+- <Adafruit_BME280.h> by Adafruit
+- <Adafruit_Sensor.h>
+- <BH1750.h> by Christopher Laws
+- <QMC5883LCompass.h> by MPorgrams
 
 ## Electrosmith Daisy 
 
