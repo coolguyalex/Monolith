@@ -17,3 +17,7 @@ Thusa far, puredata patches are run on a windows laptop and data is passed via s
 Puredata externals: iemlib and comport externals have been used in iterations in which Pd runs on a PC. 
 In other iterations puredata is compiled onto an electrosmith daisy microcontroller and data is passed between arduino and daisy via voltage. 
 Transferring data via serial UART will likley be necessary when high volumes of data are passed in future iterations. 
+
+
+
+Monlith is a project by Alexander Sousa.
