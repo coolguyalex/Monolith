@@ -2,7 +2,8 @@
 
 ## Introduction
 
-Monolith is a sensor-driven real-time sonification and datalogging sculptural project enabling follow-on sicence and art. 
+Monolith is an open-source, sensor-driven, real-time, sonification and datalogging sculptural project designed to enable follow-on sicence, art, and commuinity engagement. 
+/n
 Project Monolith seeks to:
 - Sonify data by feeding information to a generative (non-AI) synthesis and composition program. 
 - Provide local environmental datasets to researchers.
