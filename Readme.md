@@ -42,8 +42,8 @@ All chage frequencies, domain variabilities, and values are adjustable by code a
 | BME280    | BMP280             | Temp / Pressure / Humidity | 5   | Digital |0x76 |
 | HW246     | QMC5883L, GY121    | Magnetic Field             | 3–5 | Digital |0x0D |
 | HC-SR501  |                    | Infrared Motion Module     | 3-5 | Digital |N/A  |
-| SSD1306   |                    | 0.96" OLED Display         | 5   | Digital |0x3C |
 | Buttons   |                    |                            | 3.3-5| Digital| NA |
 | Potentiometers |               |                            | Any | Analog  | NA |
+| SSD1306   |                    | 0.96" OLED Display         | 5   | Digital |0x3C |
 
 Monlith is a project by Alexander Sousa.
