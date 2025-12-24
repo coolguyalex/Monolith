@@ -24,23 +24,26 @@ All chage frequencies, domain variabilities, and values are adjustable by code a
 | Data Stream | Sensor | Frequency of Change | Domain of Variability | Likley Values | Notes |
 |-------------|--------|---------------------|-----------------------|---------------|-------|
 | Capacitive Touch | MPR121 |Frequent | capacitance registers as a number and touching modifies that number | 300's | 12 contacts map to 12 notes in an octave |
-| Light | BH1750 | High | Medium | Digital similar to capacitive touch but with very large swing depending on proximity of strength and proximity of light sources | | Digital Lux is a non-linear parameter |
-| Temperature | BME280 | Very Low | Very Low | 24+/- 10 | Digital Perhaps create a tube you can blow into ? |
-| Humidity |  BME280 |Very Low | Very Low | | | Digital Perhaps create a tube you can blow into ? |
-| Pressure |  BME280 | Extremely Low | Extremeley Low | Digital Think of a way to make this change more noticable? |
-| Magnetic Field X, Y, & Z | QMC5883L | Very Low | | | 360 degrees of rotation | Digital Signal to noise ratio for detecting nearby electronics is likley too low - providing Magnetic objects or mounting sensor to a moving object will increase utility |
-| PIR | HC-SR501 |  High | Binary Data | Digital Binary Data | 
-| Buttons | High | Binary Data | Digital Binary Data |
-| Potentiometers | High | Analog Full Range |
+| Light | BH1750 | High | Medium | similar to capacitive touch but with very large swing depending on proximity of strength and proximity of light sources | | Lux is a non-linear parameter |
+| Temperature | BME280 | Very Low | Very Low | 24+/- 10 | Perhaps create a tube you can blow into ? |
+| Humidity |  BME280 |Very Low | Very Low | | | Perhaps create a tube you can blow into ? |
+| Pressure |  BME280 | Extremely Low | Extremeley Low | Think of a way to make this change more noticable? |
+| Magnetic Field X, Y, & Z | QMC5883L | Very Low | | | 360 degrees of rotation | Signal to noise ratio for detecting nearby electronics is likley too low - providing Magnetic objects or mounting sensor to a moving object will increase utility |
+| PIR | HC-SR501 |  High | Binary Data | Binary Data | 
+| Buttons | High | Binary Data | Binary Data |
+| Potentiometers | High | Full Range |
 
 ### Component Technical Data
 
-| Sensor ID | Other IDs          | Sensor Name         | Operational Voltage | I²C address |
-|-----------|--------------------|---------------------|---------|------|
-| BH1750    |                    | Light               | 3–5V    | 0x23 |
-| MPR121   |                    | Capacitive Touch    | 3.3V    | 0x5A     |
-| BME280   | BMP280             | Temp / Pressure / Humidity | 5V | 0x76 |
-| HW246    | QMC5883L, GY121    | Magnetic Field      | 3–5V    | 0x0D |
-| SSD1306| | 0.96" OLED Display | 5V | 0x3C |
+| Sensor ID | Other IDs          | Sensor Name         | Operational Voltage | Data Type | I²C address |
+|-----------|--------------------|---------------------|---------------------|-----------|-------------|
+| BH1750    |                    | Light                      | 3–5 | Digital | 0x23 |
+| MPR121    |                    | Capacitive Touch           | 3.3 | Digital |0x5A |
+| BME280    | BMP280             | Temp / Pressure / Humidity | 5   | Digital |0x76 |
+| HW246     | QMC5883L, GY121    | Magnetic Field             | 3–5 | Digital |0x0D |
+| HC-SR501  |                    | Infrared Motion Module     | 3-5 | Digital |N/A  |
+| SSD1306   |                    | 0.96" OLED Display         | 5   | Digital |0x3C |
+| Buttons   |                    |                            | 3.3-5| Digital| NA |
+| Potentiometers |               |                            | Any | Analog  | NA |
 
 Monlith is a project by Alexander Sousa.
