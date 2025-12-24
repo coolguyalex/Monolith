@@ -32,14 +32,14 @@ All chage frequencies, domain variabilities, and values are adjustable by code a
 | Buttons | High | Binary Data | Binary Data |
 | Potentiometers | High | Full Range |
 
-### Sensor Technical Data
+### Component Technical Data
 
 | Sensor ID | Other IDs          | Sensor Name         | Operational Voltage | I²C address |
 |-----------|--------------------|---------------------|---------|------|
 | BH1750    |                    | Light               | 3–5V    | 0x23 |
-| MPR121   |                    | Capacitive Touch    | 3.3V    |      |
+| MPR121   |                    | Capacitive Touch    | 3.3V    | 0x5A     |
 | BME280   | BMP280             | Temp / Pressure / Humidity | 5V | 0x76 |
 | HW246    | QMC5883L, GY121    | Magnetic Field      | 3–5V    | 0x0D |
-
+| SSD1306| | 0.96" OLED Display | 5V | 0x3C |
 
 Monlith is a project by Alexander Sousa.
