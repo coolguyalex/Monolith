@@ -7,12 +7,13 @@
 - Arduino Uno R4 Wifi
 - Elegoo Nano
 
-### Libraries 
+### Library Table
 
 | Relevant Device | Library Names | Include call | Author | Desciption |
-|----|----|----|----|------|
+|-----------------|---------------|--------------|--------|------------|
 | IIC devices | Wire | <Wire.h> | Arduino ? | used for IIC work |
 | BME280 Temp, pressure, and humidity sensor | Adafruit_BME280_Library | <Adafruit_BME280.h> | Adafruit | used for the BME280 Temperature, Pressure, and Humnidity sensor |
+| Capacitive Touch Sensor | MPR121 | <Adafruit_MPR121.h> | Adafruit | Arduino library for MPR121 cpacitive touch sensors | 
 | Adafruit Sensors and Clones | Adafruit Unifed Sensor | <Adafruit_Sensor.h> | Adafruit | Unified library ? | Adafruit Unified Sensor Driver |
 | BH1750 Light Sensor | Light Sensor | <BH1750.h> | Christopher Laws | |
 | QM5883 Sensors |QMC5883LCompass| <QMC5883LCompass.h> | MPrograms | 3-axis magnetometer library  | 
