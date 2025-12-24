@@ -21,8 +21,8 @@ Transferring data via serial UART will likley be necessary when high volumes of 
 ### Sensor details
 All chage frequencies, domain variabilities, and values are adjustable by code and installation design.
 
-| Dat Stream | | Sensor | Frequency of Change | Domain of Variability | Likley Values | Notes |
-|--------|---------------------|-----------------------|---------------|-------|
+| Data Stream | Sensor | Frequency of Change | Domain of Variability | Likley Values | Notes |
+|-------------|--------|---------------------|-----------------------|---------------|-------|
 | Capacitive Touch | MPR121 |Frequent | capacitance registers as a number and touching modifies that number | 300's | 12 contacts map to 12 notes in an octave |
 | Light | | BH1750 | Very Low | Digital similar to capacitive touch but with very large swing depending on proximity of strength and proximity of light sources | | Digital Lux is a non-linear parameter |
 | Temperature | BME280 | Very Low | Very Low | 24+/- 10 | Digital Perhaps create a tube you can blow into ? |
