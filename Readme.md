@@ -21,16 +21,17 @@ Transferring data via serial UART will likley be necessary when high volumes of 
 ### Sensor details
 All chage frequencies, domain variabilities, and values are adjustable by code and installation design.
 
-| Sensor | Frequency of Change | Domain of Variability | Likley Values | Notes |
+| Dat Stream | | Sensor | Frequency of Change | Domain of Variability | Likley Values | Notes |
 |--------|---------------------|-----------------------|---------------|-------|
-| Capacitive Touch | Frequent | capacitance registers as a number and touching modifies that number | 300's | 12 contacts map to 12 notes in an octave |
-| Light | Very Low | similar to capacitive touch but with very large swing depending on proximity of strength and proximity of light sources | | Lux is a non-linear parameter |
-| Temperature | Very Low | Very Low | 24+/- 10 | Perhaps create a tube you can blow into ? |
-| Humidity | Very Low | Very Low | | |Perhaps create a tube you can blow into ? |
-| Magnetic Field X, Y, & Z | Very Low | | | 360 degrees of rotation | Signal to noise ratio for detecting nearby electronics is likley too low - providing Magnetic objects or mounting sensor to a moving object will increase utility |
-| PIR | High | Binary Data | Binary Data | 
-| Buttons | High | Binary Data | Binary Data |
-| Potentiometers | High | Full Range |
+| Capacitive Touch | MPR121 |Frequent | capacitance registers as a number and touching modifies that number | 300's | 12 contacts map to 12 notes in an octave |
+| Light | | BH1750 | Very Low | Digital similar to capacitive touch but with very large swing depending on proximity of strength and proximity of light sources | | Digital Lux is a non-linear parameter |
+| Temperature | BME280 | Very Low | Very Low | 24+/- 10 | Digital Perhaps create a tube you can blow into ? |
+| Humidity |  BME280 |Very Low | Very Low | | | Digital Perhaps create a tube you can blow into ? |
+| Pressure |  BME280 | Extremely Low | Extremeley Low | Digital Think of a way to make this change more noticable? |
+| Magnetic Field X, Y, & Z | QMC5883L | Very Low | | | 360 degrees of rotation | Digital Signal to noise ratio for detecting nearby electronics is likley too low - providing Magnetic objects or mounting sensor to a moving object will increase utility |
+| PIR | HC-SR501 |  High | Binary Data | Digital Binary Data | 
+| Buttons | High | Binary Data | Digital Binary Data |
+| Potentiometers | High | Analog Full Range |
 
 ### Component Technical Data
 
