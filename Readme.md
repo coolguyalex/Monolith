@@ -56,7 +56,7 @@ All chage frequencies, domain variabilities, and values are adjustable by code a
 | Adafruit Sensors and Clones | Adafruit Unifed Sensor | <Adafruit_Sensor.h> | Adafruit | Unified library ? | Adafruit Unified Sensor Driver |
 | BH1750 Light Sensor | Light Sensor | <BH1750.h> | Christopher Laws | |
 | QM5883 Sensors |QMC5883LCompass| <QMC5883LCompass.h> | MPrograms | 3-axis magnetometer library  | 
-| 0.96" OLED Screen | Adafruit SSD1306 | |  Adafruit | OLED driver library for small screens | 
-| 0.96" OLED Screen | Adafruit GFX library | | Adafruit | core graphics library for Adafruit displays| 
+| 0.96" OLED Screen | Adafruit SSD1306 | <Adafruit_SSD1306.h> |  Adafruit | OLED driver library for small screens | 
+| 0.96" OLED Screen | Adafruit GFX library | <Adafruit_GFX.h> | Adafruit | core graphics library for Adafruit displays| 
 
 Monlith is a project by Alexander Sousa.
