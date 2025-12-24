@@ -30,7 +30,7 @@ All chage frequencies, domain variabilities, and values are adjustable by code a
 | Pressure |  BME280 | Extremely Low | Extremeley Low | Think of a way to make this change more noticable? |
 | Magnetic Field X, Y, & Z | QMC5883L | Very Low | | | 360 degrees of rotation | Signal to noise ratio for detecting nearby electronics is likley too low - providing Magnetic objects or mounting sensor to a moving object will increase utility |
 | PIR | HC-SR501 |  High | Binary Data | Binary Data | 
-| Buttons | High | Binary Data | Binary Data |
+| Buttons | High | Binary Data | Binary Data (active LOW)|
 | Potentiometers | High | Full Range |
 
 ### Component Technical Data
