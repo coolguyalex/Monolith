@@ -13,11 +13,12 @@
 |----|----|----|----|------|
 | IIC devices | Wire | <Wire.h> | Arduino ? | used for IIC work |
 | BME280 Temp, pressure, and humidity sensor | Adafruit_BME280_Library | <Adafruit_BME280.h> | Adafruit | used for the BME280 Temperature, Pressure, and Humnidity sensor |
-| Adafruit Unifed Sensor | <Adafruit_Sensor.h> | Adafruit | Unified library ? | Adafruit Unified Sensor Driver |
-| Light Sensor | <BH1750.h> | Christopher Laws | |
-|QMC5883LCompass| <QMC5883LCompass.h> | MPrograms | 3-axis magnetometer library  | 
-| Adafruit SSD1306 | |  Adafruit | OLED driver library for small screens | 
-| Adafruit GFX library | | Adafruit | core graphics library for Adafruit displays| 
+| Adafruit Sensors and Clones | Adafruit Unifed Sensor | <Adafruit_Sensor.h> | Adafruit | Unified library ? | Adafruit Unified Sensor Driver |
+| BH1750 Light Sensor | Light Sensor | <BH1750.h> | Christopher Laws | |
+| QM5883 Sensors |QMC5883LCompass| <QMC5883LCompass.h> | MPrograms | 3-axis magnetometer library  | 
+| 0.96" OLED Screen | Adafruit SSD1306 | |  Adafruit | OLED driver library for small screens | 
+| 0.96" OLED Screen | Adafruit GFX library | | Adafruit | core graphics library for Adafruit displays| 
+
 
 
 ## Electrosmith Daisy 
