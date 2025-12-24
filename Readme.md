@@ -59,4 +59,8 @@ All chage frequencies, domain variabilities, and values are adjustable by code a
 | 0.96" OLED Screen | Adafruit SSD1306 | <Adafruit_SSD1306.h> |  Adafruit | OLED driver library for small screens | 
 | 0.96" OLED Screen | Adafruit GFX library | <Adafruit_GFX.h> | Adafruit | core graphics library for Adafruit displays| 
 
+
+
+<div></div>
+
 Monlith is a project by Alexander Sousa.
