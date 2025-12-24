@@ -46,4 +46,17 @@ All chage frequencies, domain variabilities, and values are adjustable by code a
 | Potentiometers |               |                            | Any | Analog  | NA |
 | SSD1306   |                    | 0.96" OLED Display         | 5   | Digital |0x3C |
 
+### Library Table
+
+| Relevant Device | Library Names | Include call | Author | Desciption |
+|-----------------|---------------|--------------|--------|------------|
+| IIC devices | Wire | <Wire.h> | Arduino ? | used for IIC work |
+| BME280 Temp, pressure, and humidity sensor | Adafruit_BME280_Library | <Adafruit_BME280.h> | Adafruit | used for the BME280 Temperature, Pressure, and Humnidity sensor |
+| Capacitive Touch Sensor | MPR121 | <Adafruit_MPR121.h> | Adafruit | Arduino library for MPR121 cpacitive touch sensors | 
+| Adafruit Sensors and Clones | Adafruit Unifed Sensor | <Adafruit_Sensor.h> | Adafruit | Unified library ? | Adafruit Unified Sensor Driver |
+| BH1750 Light Sensor | Light Sensor | <BH1750.h> | Christopher Laws | |
+| QM5883 Sensors |QMC5883LCompass| <QMC5883LCompass.h> | MPrograms | 3-axis magnetometer library  | 
+| 0.96" OLED Screen | Adafruit SSD1306 | |  Adafruit | OLED driver library for small screens | 
+| 0.96" OLED Screen | Adafruit GFX library | | Adafruit | core graphics library for Adafruit displays| 
+
 Monlith is a project by Alexander Sousa.
