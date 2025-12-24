@@ -38,7 +38,7 @@ All chage frequencies, domain variabilities, and values are adjustable by code a
 | Sensor ID | Other IDs          | Sensor Name         | Operational Voltage | Data Type | I²C address | Notes|
 |-----------|--------------------|---------------------|---------------------|-----------|-------------|------|
 | BH1750    |                    | Light                      | 3–5 | Digital | 0x23 ||
-| MPR121    |                    | Capacitive Touch           | 3.3 | Digital |0x5A | May require Soft reset: write8(0x80, 0x63);|
+| MPR121    |                    | Capacitive Touch           | 3.3 | Digital |0x5A | May require Soft reset, stop, config, start sequence: write8(0x80, 0x63), write8(0x5E, 0x00), TOUCHTH = 6, RELEASETH = 3, write8(0x5E, 0x8C);|
 | BME280    | BMP280             | Temp / Pressure / Humidity | 5   | Digital |0x76 ||
 | HW246     | QMC5883L, GY121    | Magnetic Field             | 3–5 | Digital |0x0D ||
 | HC-SR501  |                    | Infrared Motion Module     | 3-5 | Digital |N/A  ||
