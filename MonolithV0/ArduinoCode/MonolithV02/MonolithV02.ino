@@ -51,14 +51,17 @@ void loop() {
   int PIR = digitalRead(pirPin);
 
   // Print values in a clean PD-friendly packet
-  Serial.print("T "); Serial.print(tempC);
-  Serial.print(", P "); Serial.print(Press);
-  Serial.print(", H "); Serial.print(Humid);
-  Serial.print(", L "); Serial.print(lux);
-  Serial.print(", X "); Serial.print(magX);
-  Serial.print(", Y "); Serial.print(magY);
-  Serial.print(", Z "); Serial.print(magZ);
-  Serial.print(", PIR "); Serial.print(PIR);
+  //Serial.print("T "); 
+  Serial.print(tempC); Serial.print(" ");
+  //Serial.print(", P "); Serial.print(Press);
+  //Serial.print(", H "); Serial.print(Humid);
+  //Serial.print(" L "); 
+  Serial.print(lux);Serial.print(" ");
+  //Serial.print(" X "); 
+  Serial.print(magX);Serial.print(" ");
+  //Serial.print(", Y "); Serial.print(magY);
+  //Serial.print(", Z "); Serial.print(magZ);
+  //Serial.print(", PIR "); Serial.print(PIR);
 
   Serial.println();
 
