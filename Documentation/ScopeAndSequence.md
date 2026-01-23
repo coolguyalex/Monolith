@@ -41,14 +41,14 @@ These questions recur throughout the semester at increasing levels of complexity
 
 ## Semester Arc Overview
 
-| Phase | Focus | Outcome |
-|------|------|---------|
-| I | Foundations of Social Practice | Shared language + inquiry |
-| II | Environment as Data | Data literacy + sensing |
-| III | Data as Expression | Sound, mapping, translation |
+| Phase | Focus | Outcome | Instructor |
+|------|------|---------|-------------|
+| I | Foundations of Social Practice | Shared language + inquiry | Harvey |
+| II | Environment as Data | Data literacy + sensing | Sousa | 
+| III | Data as Expression | Sound, mapping, translation | Sousa |
 | IV | Systems & Infrastructure | Power, durability, ethics |
-| V | Public Installation | Fabrication + deployment |
-| VI | Reflection & Outreach | Documentation + dialogue |
+| V | Public Installation | Fabrication + deployment | Harvey | 
+| VI | Reflection & Outreach | Documentation + dialogue | Harvey |
 
 ---
 
