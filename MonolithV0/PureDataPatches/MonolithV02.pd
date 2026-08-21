@@ -568,7 +568,6 @@
 #X connect 265 0 267 0;
 #X connect 266 0 265 0;
 #X connect 267 0 258 0;
-#X connect 268 0 49 0;
 #X connect 269 0 263 0;
 #X connect 270 0 268 0;
 #X connect 271 0 270 0;
